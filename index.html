@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nirvana | Project 1 Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Nirvana home">Nirvana</a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#shows">Shows</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="section-inner hero-content">
+        <p class="eyebrow">New tour announced</p>
+        <h1 id="hero-title">Nirvana</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non turpis vitae neque pretium luctus.</p>
+
+        <div class="button-row">
+          <a class="button button-light" href="#shows">View Shows</a>
+          <a class="button" href="#music">Listen Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-inner two-column">
+        <img class="feature-image" src="images/about.jpg" alt="Band members standing together">
+
+        <div>
+          <p class="eyebrow">About the band</p>
+          <h2 id="about-title">Raw sound. Loud rooms. No filler.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida, metus at malesuada porttitor, magna arcu tempor lacus, a faucibus odio erat vitae nisi.</p>
+          <p>Praesent vulputate sapien vel sem pretium, sed dictum purus rhoncus. Curabitur vitae magna et justo pharetra luctus.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="music" aria-labelledby="music-title">
+      <div class="section-inner one-third">
+        <div>
+          <p class="eyebrow">Featured releases</p>
+          <h2 id="music-title">Start with these tracks</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. This section uses a one-third/two-thirds layout.</p>
+          <a class="button" href="#shows">See Tour Dates</a>
+        </div>
+
+        <div class="album-grid">
+          <article class="album-card">
+            <img class="album-cover" src="images/album-1.jpg" alt="Album cover for Track One">
+            <h3>Track One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </article>
+
+          <article class="album-card">
+            <img class="album-cover" src="images/album-2.jpg" alt="Album cover for Track Two">
+            <h3>Track Two</h3>
+            <p>Donec in magna ut lectus laoreet fermentum.</p>
+          </article>
+
+          <article class="album-card">
+            <img class="album-cover" src="images/album-3.jpg" alt="Album cover for Track Three">
+            <h3>Track Three</h3>
+            <p>Aliquam erat volutpat. Sed euismod lorem vel vehicula.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlight-section" id="shows" aria-labelledby="shows-title">
+      <div class="section-inner">
+        <p class="eyebrow">Tour dates</p>
+        <h2 id="shows-title">See the next show</h2>
+
+        <div class="show-list">
+          <article class="show-item">
+            <p class="show-date">Oct 04</p>
+            <p class="show-location">Denver, CO<br>Summit Music Hall</p>
+            <a class="button button-light" href="#contact">Tickets</a>
+          </article>
+
+          <article class="show-item">
+            <p class="show-date">Oct 12</p>
+            <p class="show-location">Salt Lake City, UT<br>The Depot</p>
+            <a class="button button-light" href="#contact">Tickets</a>
+          </article>
+
+          <article class="show-item">
+            <p class="show-date">Oct 19</p>
+            <p class="show-location">Albuquerque, NM<br>Launchpad</p>
+            <a class="button button-light" href="#contact">Tickets</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner">
+        <p class="eyebrow">Stay connected</p>
+        <h2 id="contact-title">Join the list before tickets drop</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Get early access to shows, releases, and limited merch.</p>
+        <a class="button" href="mailto:example@example.com">Join Mailing List</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Nirvana. Example student project.</p>
+
+      <div class="footer-links" aria-label="Footer links">
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#shows">Shows</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
